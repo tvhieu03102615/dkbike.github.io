@@ -76,86 +76,6 @@ Profile:	https://themeforest.net/user/3ftheme
   font-weight: 500;
 }
 
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-Black.eot");
-  src: url("fonts/Lato-Black.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Black.woff") format("woff"), url("fonts/Lato-Black.ttf") format("truetype"), url("fonts/Lato-Black.svg#Lato") format("svg");
-  font-style: normal;
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-BlackItalic.eot");
-  src: url("fonts/Lato-BlackItalic.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-BlackItalic.woff") format("woff"), url("fonts/Lato-BlackItalic.ttf") format("truetype"), url("fonts/Lato-BlackItalic.svg#Lato") format("svg");
-  font-style: "italic";
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-Bold.eot");
-  src: url("fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Bold.woff") format("woff"), url("fonts/Lato-Bold.ttf") format("truetype"), url("fonts/Lato-Bold.svg#Lato") format("svg");
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-BoldItalic.eot");
-  src: url("fonts/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-BoldItalic.woff") format("woff"), url("fonts/Lato-BoldItalic.ttf") format("truetype"), url("fonts/Lato-BoldItalic.svg#Lato") format("svg");
-  font-style: "italic";
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-Hairline.eot");
-  src: url("fonts/Lato-Hairline.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Hairline.woff") format("woff"), url("fonts/Lato-Hairline.ttf") format("truetype"), url("fonts/Lato-Hairline.svg#Lato") format("svg");
-  font-style: normal;
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-HairlineItalic.eot");
-  src: url("fonts/Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-HairlineItalic.woff") format("woff"), url("fonts/Lato-HairlineItalic.ttf") format("truetype"), url("fonts/Lato-HairlineItalic.svg#Lato") format("svg");
-  font-style: "italic";
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-Italic.eot");
-  src: url("fonts/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Italic.woff") format("woff"), url("fonts/Lato-Italic.ttf") format("truetype"), url("fonts/Lato-Italic.svg#Lato") format("svg");
-  font-style: "italic";
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-Light.eot");
-  src: url("fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Light.woff") format("woff"), url("fonts/Lato-Light.ttf") format("truetype"), url("fonts/Lato-Light.svg#Lato") format("svg");
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-LightItalic.eot");
-  src: url("fonts/Lato-LightItalic.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-LightItalic.woff") format("woff"), url("fonts/Lato-LightItalic.ttf") format("truetype"), url("fonts/Lato-LightItalic.svg#Lato") format("svg");
-  font-style: "italic";
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-Regular.eot");
-  src: url("fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Regular.woff") format("woff"), url("fonts/Lato-Regular.ttf") format("truetype"), url("fonts/Lato-Regular.svg#Lato") format("svg");
-  font-style: normal;
-  font-weight: 400;
-}
-
 /*********************
     - 2. General -
 *********************/
@@ -298,6 +218,10 @@ button {
   margin: auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .store__address {
   padding-bottom: 30px;
   padding-top: 15px;
@@ -306,9 +230,8 @@ button {
 .store__address--detail {
   float: left;
   height: 35px;
-  line-height: 35px;
+  margin-bottom: 10px;
   font-size: 21px;
-  font-family: 'Lato';
 }
 
 .store__address--detail a {
@@ -396,14 +319,12 @@ hr {
 
 .hethong__store1--text h3 {
   font-size: 28px;
-  font-family: 'Lato';
   margin: 0;
   font-weight: 500;
 }
 
 .hethong__store1--text h2 {
   font-size: 48px;
-  font-family: 'Lato';
   margin: 0;
   font-weight: 500;
 }
@@ -428,8 +349,6 @@ hr {
 }
 
 .hethong__search .select__top {
-  padding-left: 8px;
-  padding-right: 20px;
   height: 35px;
   line-height: 35px;
   position: relative;
@@ -506,7 +425,6 @@ hr {
   float: left;
   color: #fff;
   background-color: #00ad55;
-  border-color: #00ad55;
   height: 35px;
   -webkit-border-bottom-left-radius: 1px;
   border-bottom-left-radius: 1px;
@@ -515,6 +433,7 @@ hr {
   outline: transparent;
   -webkit-border-radius: 0 4px 4px 0px;
   border-radius: 0 4px 4px 0px;
+  border: none;
 }
 
 .hethong__search .show {
@@ -524,6 +443,29 @@ hr {
   -moz-transition: 0.5s;
   transition: 0.5s;
   text-transform: uppercase;
+}
+
+.hethong__search .chosen-container-single .chosen-single {
+  border: unset;
+  background: unset;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+
+.hethong__search .chosen-container-single .chosen-drop {
+  margin-top: 4px;
+}
+
+.hethong__search .chosen-container .chosen-results {
+  font-style: initial;
+}
+
+.hethong__search .result-selected {
+  background: #dddddd;
+}
+
+.hethong__search .chosen-container .chosen-results {
+  padding: 0;
 }
 
 .news__list {
@@ -1098,8 +1040,9 @@ i.fab.fa-youtube {
 .slide__home .owl-nav {
   position: absolute;
   top: 39%;
-  height: 73px;
+  height: 0px;
   width: 100%;
+  margin: 0;
 }
 
 .slide__home .owl-nav .owl-prev {
@@ -1348,15 +1291,17 @@ i.fab.fa-youtube {
   margin-top: 25px;
 }
 
-.content__gioithieu > article > p {
-  text-align: center;
-}
-
 .content__gioithieu > article > p strong {
   color: #555555;
   font-size: 15px;
   line-height: 24px;
-  font-weight: 500;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+}
+
+.content__gioithieu > article > p strong.capnhat__gioithieu--strong {
+  text-align: left;
 }
 
 .content__gioithieu__left {
@@ -1410,6 +1355,11 @@ i.fab.fa-youtube {
   color: blue;
 }
 
+.content__gioithieu .news-newer {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
 .content__gioithieu .news-newer .heading {
   text-transform: uppercase;
   font-size: 20px;
@@ -1432,7 +1382,7 @@ i.fab.fa-youtube {
 }
 
 .content__gioithieu .news-newer__item__date {
-  margin: 10px 0;
+  margin: 10px 0 10px 7px;
   color: #555555;
   font-size: 15px;
 }
@@ -1442,42 +1392,32 @@ i.fab.fa-youtube {
   background: #f0f0f0;
 }
 
-.like-share p {
+.like-share a {
   display: inline-block;
-}
-
-.like-share .like__gioithieu > span {
-  display: inline-block;
-  padding: 3px 5px;
-  background: #4267b2;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  font-size: 11px;
-  color: #fff;
-  font-weight: 600;
-  border: 1px solid #4267b2;
-}
-
-.like-share .like__gioithieu i {
+  line-height: 28px;
   margin-right: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
-.like-share .share {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  font-size: 11px;
+.like-share a:nth-child(1), .like-share a:nth-child(2) {
+  background: #577fbc;
+  border: 1px solid #577fbc;
   color: #fff;
-  font-weight: 600;
-  background: #4267b2;
-  padding: 3px 5px;
-  border: 1px solid #4267b2;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-.like-share .gg-plus {
-  padding: 0 5px;
+.like-share a:nth-child(1):hover, .like-share a:nth-child(2):hover {
+  background: #365899;
+  border: 1px solid #365899;
+}
+
+.like-share a:nth-child(3) {
+  color: #db4437;
+  width: 28px;
+  text-align: center;
   border: 1px solid #ccc;
-  color: #ed3239;
-  line-height: 21px;
 }
 
 .capnhat__gioithieu {
@@ -2006,6 +1946,35 @@ i.fab.fa-youtube {
   border-radius: 999px;
 }
 
+#tintucchitiet {
+  background-color: #f0f0f0;
+}
+
+#tintucchitiet .tintucchitiet {
+  padding-top: 25px;
+}
+
+#tintucchitiet .link--modify {
+  color: blue;
+  text-decoration: underline;
+}
+
+#tintucchitiet h3 {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+#tintucchitiet .tintuc__content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tintucchitiet .tintuc__content .tintuc__content__src {
+  text-align: right;
+}
+
 .hethong {
   padding: 0 15px;
 }
@@ -2052,9 +2021,10 @@ i.fab.fa-youtube {
   padding-right: 10px;
 }
 
-.hethong__mien li:before {
+.hethong__mien li a:before {
   counter-increment: section;
   content: counter(section) ". ";
+  cursor: pointer;
 }
 
 .hethong__mien li:last-child::after {
@@ -2063,21 +2033,14 @@ i.fab.fa-youtube {
   clear: both;
 }
 
-.hethong__mien li:hover {
-  cursor: pointer;
-  color: #00ad55;
-}
-
-.hethong__mien li:hover a {
-  color: #00ad55;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 17px;
-}
-
 .hethong__mien li a {
   font-size: 15px;
   color: #585b5f;
+}
+
+.hethong__mien li a:hover {
+  color: #00ad55;
+  font-size: 17px;
 }
 
 .hethong .show {
@@ -2098,7 +2061,6 @@ i.fab.fa-youtube {
   height: 35px;
   line-height: 35px;
   font-size: 21px;
-  font-family: 'Lato';
 }
 
 .hethongdetail .store__address--detail a {
@@ -2222,6 +2184,11 @@ i.fab.fa-youtube {
   float: left;
 }
 
+.hethongeach .contact {
+  margin-bottom: 60px;
+  background: #f9f9f9;
+}
+
 .hethongeach .contact--infor {
   width: 33.33333%;
   float: left;
@@ -2229,7 +2196,6 @@ i.fab.fa-youtube {
   font-size: 24px;
   color: #585b5f;
   padding-top: 35px;
-  background: #f9f9f9;
   font-size: 16px;
   padding-right: 15px;
   padding-left: 15px;
@@ -2247,6 +2213,8 @@ i.fab.fa-youtube {
 .hethongeach .owl-dots {
   margin-top: 20px;
   margin-bottom: 15px;
+  width: 100%;
+  position: absolute;
 }
 
 .hethongeach .owl-theme .owl-dots .owl-dot span {
@@ -2286,6 +2254,9 @@ i.fab.fa-youtube {
   }
   #tin__tuc .container {
     padding: 0 15px;
+  }
+  #hethongdetail .container_1230 {
+    padding: 0 100px;
   }
 }
 
@@ -2334,6 +2305,9 @@ i.fab.fa-youtube {
   #hethong .container_1140 {
     padding: 0 15px;
   }
+  #hethongdetail .container_1230 {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -2366,6 +2340,27 @@ i.fab.fa-youtube {
   }
   .p-detail__path li {
     margin-left: 0;
+  }
+  #gioithieu .right__box3, #tintucchitiet .right__box3 {
+    line-height: 20px;
+  }
+  #gioithieu .right__box3 .product, #tintucchitiet .right__box3 .product {
+    float: none;
+    position: relative;
+    top: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
+    transform: unset;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #gioithieu .right__box3 .product__infor, #tintucchitiet .right__box3 .product__infor {
+    width: 100%;
+    float: none;
+    padding-left: 15px;
+    margin-top: 10px;
   }
   #tin__tuc .tin__tuc--left {
     width: 60%;
@@ -2511,38 +2506,40 @@ i.fab.fa-youtube {
     width: 100%;
     float: unset;
   }
-  #gioithieu .tintuc__gioithieu {
+  #gioithieu .tintuc__gioithieu, #tintucchitiet .tintuc__gioithieu {
     width: 100%;
     float: none;
     margin-top: 50px;
   }
-  #gioithieu .content__gioithieu {
+  #gioithieu .content__gioithieu, #tintucchitiet .content__gioithieu {
     width: 100%;
     float: none;
   }
-  #gioithieu .content__gioithieu article h2 {
+  #gioithieu .content__gioithieu article h2, #tintucchitiet .content__gioithieu article h2 {
     text-align: center;
     padding-top: 25px;
   }
-  #gioithieu .right__box2 img {
+  #gioithieu .right__box2 img, #tintucchitiet .right__box2 img {
     width: unset;
   }
-  #gioithieu .right__box3 li {
-    padding: 55px 15px;
+  #gioithieu .right__box3 li, #tintucchitiet .right__box3 li {
+    padding: 30px 15px;
     margin-top: 25px;
     float: left;
-    width: 48%;
+    width: 49%;
     border: 1px solid #ccc;
   }
-  #gioithieu .right__box3 ul {
+  #gioithieu .right__box3 ul, #tintucchitiet .right__box3 ul {
     overflow: hidden;
   }
-  #gioithieu .right__box3 ul li:nth-child(2n):not(:first-child) {
-    border-left: 0;
+  #gioithieu .right__box3 ul li:nth-child(2n):not(:first-child), #tintucchitiet .right__box3 ul li:nth-child(2n):not(:first-child) {
     margin-left: 2%;
   }
-  #gioithieu .right__box4 {
+  #gioithieu .right__box4, #tintucchitiet .right__box4 {
     display: none;
+  }
+  #gioithieu .content__gioithieu__video iframe, #tintucchitiet .content__gioithieu__video iframe {
+    height: 375px;
   }
   #tin__tuc .right__box3 .product {
     width: 33.3333%;
@@ -2598,7 +2595,7 @@ i.fab.fa-youtube {
   }
   #hethongeach .contact--infor {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 40px;
   }
 }
 
@@ -2642,6 +2639,13 @@ i.fab.fa-youtube {
     border: 1px solid #ccc;
     font-size: 18px;
     cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .products__filter__icon i {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #ed3239;
   }
   .products__filter__inner {
     display: none;
@@ -2671,6 +2675,12 @@ i.fab.fa-youtube {
     float: left;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .content__gioithieu__left {
+    width: 100%;
+  }
+  .content__gioithieu__right {
+    width: 100%;
   }
   #hethong .hethong__store1--text h3 {
     font-size: 25px;
@@ -2703,6 +2713,26 @@ i.fab.fa-youtube {
   }
   .content__gioithieu__video iframe {
     height: 350px;
+  }
+  #gioithieu .right__box3 li, #tintucchitiet .right__box3 li {
+    padding: 25px 15px;
+  }
+  #gioithieu .right__box3 .product, #tintucchitiet .right__box3 .product {
+    position: relative;
+    top: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
+    transform: unset;
+    float: none;
+    width: 100%;
+  }
+  #gioithieu .right__box3 .product__infor, #tintucchitiet .right__box3 .product__infor {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-top: 15px;
   }
   #tin__tuc .tin__tuc--left {
     width: 50%;
@@ -2840,29 +2870,32 @@ i.fab.fa-youtube {
   .products__right .col-4 .p-detail__inner li {
     width: 100%;
   }
-  .products__right .col-4 #gioithieu .right__box3 ul li {
+  #gioithieu .right__box3 ul li, #tintucchitiet .right__box3 ul li {
     width: 100%;
   }
-  .products__right .col-4 #gioithieu .right__box3 ul li:nth-child(2n):not(:first-child) {
+  #gioithieu .right__box3 ul li:nth-child(2n):not(:first-child), #tintucchitiet .right__box3 ul li:nth-child(2n):not(:first-child) {
     margin-left: 0;
     border-left: 1px solid #ccc;
   }
-  .products__right .col-4 #gioithieu .content__gioithieu__left {
+  #gioithieu .content__gioithieu__left, #tintucchitiet .content__gioithieu__left {
     display: none;
   }
-  .products__right .col-4 #gioithieu .content__gioithieu__right {
+  #gioithieu .content__gioithieu__right, #tintucchitiet .content__gioithieu__right {
     width: 100%;
   }
-  .products__right .col-4 #hethong .hethong__search--inner {
+  #gioithieu .content__gioithieu__video iframe, #tintucchitiet .content__gioithieu__video iframe {
+    height: 250px;
+  }
+  #hethong .hethong__search--inner {
     width: 90%;
   }
-  .products__right .col-4 #hethongdetail .hethong__search {
+  #hethongdetail .hethong__search {
     width: 90%;
   }
-  .products__right .col-4 #hethongeach .hethong__search {
+  #hethongeach .hethong__search {
     width: 90%;
   }
-  .products__right .col-4 #hethongeach .store__address--detail {
+  #hethongeach .store__address--detail {
     height: 50px;
     line-height: unset;
   }
