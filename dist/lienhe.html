@@ -72,25 +72,30 @@
           <div class="container">
             <div class="row">
               <div class="col-6 contact__lienhe">
-                <div class="name__lienhe">
-                  <label><span><i class="fas fa-user"></i></span><span>Họ và tên:</span><br/></label>
-                  <input type="text"/>
-                </div>
-                <div class="phone-email">
-                  <div class="sodienthoai__lienhe">
-                    <label><span><i class="fas fa-phone"></i></span><span>Số điện thoại:</span><br/></label>
+                <form action="">
+                  <div class="name__lienhe">
+                    <label for="hoten"><span><i class="fas fa-user"></i></span><span>Họ và tên:</span><br/></label>
                     <input type="text"/>
                   </div>
-                  <div class="email__lienhe">
-                    <label><span><i class="fas fa-envelope"></i></span><span>Địa chỉ email:</span><br/></label>
-                    <input type="text"/>
+                  <div class="phone-email">
+                    <div class="sodienthoai__lienhe">
+                      <label for="sodienthoai"><span><i class="fas fa-phone"></i></span><span>Số điện thoại:</span><br/></label>
+                      <input type="text"/>
+                    </div>
+                    <div class="email__lienhe">
+                      <label for="diachiemail"><span><i class="fas fa-envelope"></i></span><span>Địa chỉ email:</span><br/></label>
+                      <input type="text"/>
+                    </div>
+                    <div class="clearfix"></div>
                   </div>
-                  <div class="clearfix"></div>
-                </div>
-                <div class="yeucausanpham__lienhe">
-                  <label>Yêu cầu sản phẩm:</label><br/>
-                  <textarea></textarea>
-                </div>
+                  <div class="yeucausanpham__lienhe">
+                    <label for="yeucausanpham">Yêu cầu sản phẩm:</label><br/>
+                    <textarea></textarea>
+                  </div>
+                  <div class="guiyeucau__lienhe">
+                    <button type="submit">Gửi Yêu Cầu</button>
+                  </div>
+                </form>
               </div>
               <div class="col-6 address__lienhe">
                 <div class="text__address">

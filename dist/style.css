@@ -1251,6 +1251,22 @@ i.fab.fa-youtube {
   max-height: 400px;
 }
 
+.guiyeucau__lienhe {
+  text-align: center;
+}
+
+.guiyeucau__lienhe button {
+  margin-top: 30px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  border: none;
+  padding: 0px 30px;
+  background: #ed3239;
+  color: #fff;
+  font-size: 18px;
+  line-height: 50px;
+}
+
 .address__lienhe {
   padding-left: 100px;
   font-size: 15px;
@@ -2941,6 +2957,9 @@ i.fab.fa-youtube {
 @media screen and (max-width: 320px) {
   #footer .camket-baohanh ul {
     padding: 0;
+  }
+  #footer .sanpham__footer {
+    text-align: center;
   }
   .products__filter div:nth-child(3n+2):not(:nth-child(2)) {
     clear: unset;
