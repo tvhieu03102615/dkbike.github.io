@@ -1,22 +1,5 @@
 
-<!-- Mixins-->
-<!-- Start: eachstore-->
-<!-- End: eachstore-->
-<!-- Start: storedetail-->
-<!-- End: storedetail-->
-<!-- Start: store-->
-<!-- End: store-->
-<!-- Start: search-->
-<!-- End: search-->
-<!-- Start: tintuc-->
-<!-- End: tintuc-->
-<!-- Start: bg-title-->
-<!-- End: bg-title-->
-<!-- Start: sanpham-->
-<!-- End: sanpham-->
-<!-- Start: title-->
-<!-- Start: news-->
-<!-- End: news--><!DOCTYPE html>
+<!-- Mixins--><!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Themes</title>
@@ -25,130 +8,549 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, shrink-to-fit=no, user-scalable=no"/>
     <meta name="keywords" content="coding, html, css"/>
     <meta name="author" content="someone"/>
-    <!-- link fontawesome-->
+    <!-- Styles-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"/>
-    <!-- Styles - owlcarousel-->
-    <link rel="stylesheet" type="text/css" href="libs/owlCarousel/assets/owl.theme.default.min.css"/>
-    <link rel="stylesheet" type="text/css" href="libs/owlCarousel/assets/owl.carousel.min.css"/>
-    <!--link jQueryCustomScrollbar-->
-    <link rel="stylesheet" type="text/css" href="libs/jQueryCustomScrollbar/jquery.mCustomScrollbar.css"/>
-    <link rel="stylesheet" type="text/css" href="libs/choosen/chosen.min.css"/>
-    <!-- link css-->
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
     <div id="wrapper">
       <header id="header">
-        <!--#header-->
-        <div class="wrap-header container_1920">
-          <div class="logo-header"><a href="#"><img src="images/k_logo.jpeg" alt="logo"/></a></div>
-          <div class="contact-menu">
-            <div class="contact">
-              <ul>
-                <li>HOTLINE: 01642582266</li>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-              </ul>
+        <div class="container">
+          <div class="logo fleft"><a href="#"><img src="images/logo.png" alt="logo"/></a></div>
+          <div class="header-banner fleft">
+            <h1 class="name"><a href="#">Công Ty TNHH Sản Xuất và Thương Mại HDD Việt Nam</a></h1>
+          </div>
+          <div class="toolbar fright">
+            <div class="cart-menu fright">
+              <div class="card-menu__inner"><a href="#"><span class="icon"><img src="images/icon_cart.png" alt="icon"/></span><span class="card text-right">Giỏ hàng</span></a></div>
+              <div class="proinshop"><span class="number">0</span></div>
             </div>
-            <div class="menu">
-              <nav>
-                <ul>
-                  <li><a href="home.html">Trang chủ</a></li>
-                  <li><a href="gioithieu.html">Giới thiệu</a></li>
-                  <li><a href="sanpham.html">Sản phẩm</a></li>
-                  <li><a href="hethongphanphoi.html">Hệ thống phân phối</a></li>
-                  <li><a href="tintuc.html">Tin tức</a></li>
-                  <li><a href="lienhe.html">Liên hệ</a></li>
-                </ul>
-              </nav>
+            <div class="clearfix"></div>
+            <div class="hotline"><span class="title-hotline">HOTLINE: </span><span class="number-phone">0918 768 102</span></div>
+            <div class="search">
+              <div class="search__inner">
+                <form action="">
+                  <input type="search" placeholder="Nhập từ khó cần tìm ..."/>
+                  <div class="button-search"><a href="#"><img src="images/icon_search.png" alt="icon-search"/></a></div>
+                </form>
+              </div>
             </div>
-            <div class="menu-res"><i class="fas fa-bars"></i></div>
           </div>
           <div class="clearfix"></div>
         </div>
       </header>
-      <footer id="footer">
-        <!--#footer-->
-        <div class="wrap-footer">
-          <div class="bg-camket-baohanh">
-            <div class="container_1170">
-              <div class="camket-baohanh">
-                <ul>
-                  <li><a href="#"><span><img src="images/k_dk.png" alt="dk"/></span><span>CAM KẾT CHÍNH HÃNG 100%</span></a></li>
-                  <li><a href="#"><span><img src="images/k_transport.png" alt="transport"/></span><span>CAM KẾT CHÍNH HÃNG 100%</span></a></li>
-                  <li><a href="#"><span><img src="images/k_fix.png" alt="fix"/></span><span>CAM KẾT CHÍNH HÃNG 100%</span></a></li>
-                  <li><span><a href="#"><i class="fab fa-facebook-f"></i></a></span><span><a href="#"><i class="fab fa-youtube"></i></a></span></li>
+      <nav id="navigate-main">
+        <div class="container">
+          <div class="navigate">
+            <div class="menu-main">
+              <div class="menu">
+                <ul class="menu-c1 list-inline">
+                  <li class="cleaning-stuff margin-left-none"><a href="#">Dụng cụ vệ sinh</a>
+                    <div class="menu-c2 list-product">
+                      <ul class="sub list-inline">
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">dụng cụ lau kính</span></a></li>
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">dụng cụ lau sàn</span></a></li>
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">dụng cụ vệ sinh khác</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="floor-scrubber"><a href="#">Máy chà sàn</a>
+                    <div class="menu-c2 list-product">
+                      <ul class="sub list-inline">
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">máy chà sàn cầm tay</span></a></li>
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">máy chà sàn liên hợp</span></a></li>
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">phụ kiện máy chà sàn</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="vacuum-cleaner"><a href="#">Máy hút bụi</a>
+                    <div class="menu-c2 list-product">
+                      <ul class="sub list-inline">
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">máy hút bụi công nghiệp</span></a></li>
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">máy hút bụi gia đình</span></a></li>
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">phụ kiện máy hút bụi</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="Carper-cleaning-machine"><a href="#">Máy giặt thảm, ghế</a></li>
+                  <li class="car-wipe-the-house"><a href="#">Xe lau nhà</a></li>
+                  <li class="Other-industrial-cleaning-machines"><a href="#">Máy vệ sinh công nghiệp khác</a>
+                    <div class="menu-c2 list-product">
+                      <ul class="sub list-inline">
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">máy vệ sinh thang cuốn</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="Industrial-hygiene-chemicals"><a href="#">Hóa chất vệ sinh công nghiệp</a>
+                    <div class="menu-c2 list-product">
+                      <ul class="sub list-inline">
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">hóa chất vệ sinh gift</span></a></li>
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">hóa chất klenco</span></a></li>
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">hóa chất goodmaid</span></a></li>
+                        <li class="product"><a href="#"><span class="img-product"><img src="images/product.jpg" alt="product"/></span><span class="name-product">hóa chất vệ sinh suzy</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="margin-right-none"><a href="#">Liên hệ</a></li>
                 </ul>
               </div>
             </div>
           </div>
+        </div>
+      </nav>
+      <main id="content">
+        <div id="content-wrap">
           <div class="container">
-            <div class="sanpham__footer">
+            <div class="slide-show part">
               <div class="row">
-                <div class="col-2">
-                  <h3>SẢN PHẨM</h3>
-                  <ul>
-                    <li><a href="#">Chính sách bảo hành</a></li>
-                    <li><a href="#">Chính sách bảo mật</a></li>
-                    <li><a href="#">Cam kết chất lượng tốt nhất</a></li>
-                    <li><a href="#">Gian hàng đảm bảo</a></li>
-                  </ul>
+                <div class="slide-main fleft">
+                  <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="images/s_slide-img-item1.png" alt="item1"/></div>
+                    <div class="item"><img src="images/s_slide-img-item2.png" alt="item2"/></div>
+                    <div class="item"><img src="images/s_slide-img-item3.png" alt="item3"/></div>
+                  </div>
                 </div>
-                <div class="col-2">
-                  <h3>DỊCH VỤ HẬU MÃI</h3>
-                  <ul>
-                    <li><a href="#">Chính sách bảo hành</a></li>
-                    <li><a href="#">Chính sách bảo mật</a></li>
-                    <li><a href="#">Cam kết chất lượng tốt nhất</a></li>
-                    <li><a href="#">Gian hàng đảm bảo</a></li>
-                  </ul>
+                <div class="slide-tabs fleft">
+                  <div class="menu-item"><a class="tab" href="#1">Sản phẩm mới nhất</a><a class="tab" href="#2">Tin tức mới nhất</a></div>
+                  <div class="owl-carousel owl-theme slide-content">
+                    <div class="item" data-hash="1">
+                      <ul>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail.png" alt="thumbnail"/><span class="fleft small-news-title">Hóa chất lau kính  Klenco Power View</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail.png" alt="thumbnail"/><span class="fleft small-news-title">Hóa chất lau kính  Klenco Power View</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail.png" alt="thumbnail"/><span class="fleft small-news-title">Hóa chất lau kính  Klenco Power View</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail.png" alt="thumbnail"/><span class="fleft small-news-title">Hóa chất lau kính  Klenco Power View</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail.png" alt="thumbnail"/><span class="fleft small-news-title">Hóa chất lau kính  Klenco Power View</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail.png" alt="thumbnail"/><span class="fleft small-news-title">Hóa chất lau kính  Klenco Power View</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail.png" alt="thumbnail"/><span class="fleft small-news-title">Hóa chất lau kính  Klenco Power View</span>
+                            <div class="clearfix"></div></a></li>
+                      </ul>
+                    </div>
+                    <div class="item" data-hash="2">
+                      <ul>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail-2.png" alt="thumbnail"/><span class="fleft small-news-title">Đánh bóng sàn uy tín và chuyên nghiệp</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail-2.png" alt="thumbnail"/><span class="fleft small-news-title">Đánh bóng sàn uy tín và chuyên nghiệp</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail-2.png" alt="thumbnail"/><span class="fleft small-news-title">Đánh bóng sàn uy tín và chuyên nghiệp</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail-2.png" alt="thumbnail"/><span class="fleft small-news-title">Đánh bóng sàn uy tín và chuyên nghiệp</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail-2.png" alt="thumbnail"/><span class="fleft small-news-title">Đánh bóng sàn uy tín và chuyên nghiệp</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail-2.png" alt="thumbnail"/><span class="fleft small-news-title">Đánh bóng sàn uy tín và chuyên nghiệp</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail-2.png" alt="thumbnail"/><span class="fleft small-news-title">Đánh bóng sàn uy tín và chuyên nghiệp</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail-2.png" alt="thumbnail"/><span class="fleft small-news-title">Đánh bóng sàn uy tín và chuyên nghiệp</span>
+                            <div class="clearfix"></div></a></li>
+                        <li><a href="#"><img class="fleft thumbnail" src="images/s_item-img-thumbnail-2.png" alt="thumbnail"/><span class="fleft small-news-title">Đánh bóng sàn uy tín và chuyên nghiệp</span>
+                            <div class="clearfix"></div></a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-2">
-                  <h3>HƯỚNG DẪN</h3>
-                  <ul>
-                    <li><a href="#">Những câu hỏi thường gặp</a></li>
-                    <li><a href="#">Hướng dẫn mua hàng</a></li>
-                    <li><a href="#">Hướng dẫn thanh toán</a></li>
-                    <li><a href="#">Hướng dẫn sử dụng và Quy định</a></li>
-                  </ul>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <div class="cleaning-tool part">
+              <div class="part-title-bar">
+                <div class="row">
+                  <div class="col-3 part-title-name">
+                    <h5>Dụng cụ vệ sinh</h5>
+                  </div>
+                  <div class="col-9 part-title-menu">
+                    <ul>
+                      <li><a href="#">Dụng cụ lau sàn</a></li>
+                      <li><a href="#">Dụng cụ lau kính</a></li>
+                      <li><a href="#">Dụng cụ vệ sinh khác</a></li>
+                    </ul>
+                  </div>
+                  <div class="clearfix"></div>
                 </div>
-                <div class="col-2">
-                  <h3>HOTLINE</h3>
-                  <ul>
-                    <li><a href="#"><span>Kinh doanh:</span><span class="telephone"> 01642582266</span></a></li>
-                    <li><a href="#"><span>Hỗ trợ kĩ thuật:</span><span class="telephone"> 01642582266</span></a></li>
-                    <li><a href="#"><span>Dịch vụ cứu hộ:</span><span class="telephone"> 01642582266</span></a></li>
-                    <li><a href="#"><span>Liên hệ làm đại lý:</span><span class="telephone"> 01642582266</span></a></li>
-                  </ul>
+              </div>
+              <div class="part-content">
+                <div class="row">
+                  <div class="col-20 typical-product"><a href="#"><img src="images/s_tron-bo-lau-kinh-cao-cap-hc-043.png" alt="typical-product"/></a></div>
+                  <div class="col-80 list-product">
+                    <div class="row">
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/kep-gie-kho-hc-015a.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/kep-gie-kho-hc-015a.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/kep-gie-kho-hc-015a.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/kep-gie-kho-hc-015a.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
                 </div>
-                <div class="col-2">
-                  <h3>DKBIKE VIỆT NAM</h3>
-                  <ul>
-                    <li><a href="#">Thư cảm ơn</a></li>
-                    <li><a href="#">Hợp tác kinh doanh cùng DKbike</a></li>
-                    <li><a href="#">Tuyển dụng</a></li>
-                    <li><a href="#">Giới thiệu DKBike</a></li>
-                  </ul>
+              </div>
+            </div>
+            <div class="may-cha-san part">
+              <div class="part-title-bar">
+                <div class="row">
+                  <div class="col-3 part-title-name">
+                    <h5>Máy chà sàn</h5>
+                  </div>
+                  <div class="col-9 part-title-menu">
+                    <ul>
+                      <li><a href="#">Máy chà sàn cầm tay</a></li>
+                      <li><a href="#">Phụ kiện máy chà sàn</a></li>
+                      <li><a href="#">Máy chà sàn liên hợp</a></li>
+                    </ul>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="part-content">
+                <div class="row">
+                  <div class="col-20 typical-product"><a href="#"><img src="images/s_may-cha-san-cong-nghiep-hc-2a.png" alt="typical-product"/></a></div>
+                  <div class="col-80 list-product">
+                    <div class="row">
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_may-cha-san-da-nang-HC005.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_may-cha-san-da-nang-HC005.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_may-cha-san-da-nang-HC005.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_may-cha-san-da-nang-HC005.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="may-hut-bui part">
+              <div class="part-title-bar">
+                <div class="row">
+                  <div class="col-3 part-title-name">
+                    <h5>Máy hút bụi</h5>
+                  </div>
+                  <div class="col-9 part-title-menu">
+                    <ul>
+                      <li><a href="#">Máy hút bụi công nghiệp</a></li>
+                      <li><a href="#">Myas hút bụi gia đình</a></li>
+                      <li><a href="#">Phụ kiện máy hút bụi</a></li>
+                    </ul>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="part-content">
+                <div class="row">
+                  <div class="col-20 typical-product"><a href="#"><img src="images/s_phu-kien-may-hut-bui-hc-056a.png" alt="typical-product"/></a></div>
+                  <div class="col-80 list-product">
+                    <div class="row">
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_dong-co-may-hut-bui-hc051.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_dong-co-may-hut-bui-hc051.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_dong-co-may-hut-bui-hc051.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_dong-co-may-hut-bui-hc051.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="hoa-chat part">
+              <div class="part-title-bar">
+                <div class="row">
+                  <div class="col-3 part-title-name">
+                    <h5>Hóa chất vệ sinh công nghiệp</h5>
+                  </div>
+                  <div class="col-9 part-title-menu">
+                    <ul>
+                      <li><a href="#">Hóa chất Klenco</a></li>
+                      <li><a href="#">Hóa chất goodmaid</a></li>
+                      <li><a href="#">Hóa chất vệ sinh suzy</a></li>
+                      <li><a href="#">Hóa chất vệ sinh gift</a></li>
+                    </ul>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="part-content">
+                <div class="row">
+                  <div class="col-20 typical-product"><a href="#"><img src="images/s_hoa-chat-lau-kinh-klenco-power-view.png" alt="typical-product"/></a></div>
+                  <div class="col-80 list-product">
+                    <div class="row">
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_hoa-chat-tay-rua-inox-klenco-steel-shine.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_hoa-chat-tay-rua-inox-klenco-steel-shine.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_hoa-chat-tay-rua-inox-klenco-steel-shine.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_hoa-chat-tay-rua-inox-klenco-steel-shine.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="tin-tuc-moi part">
+              <div class="part-title-bar">
+                <div class="row">
+                  <div class="col-3 part-title-name">
+                    <h5>Tin tức mới nhất</h5>
+                  </div>
+                  <div class="col-9 part-title-menu"></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="part-content">
+                <div class="row">
+                  <div class="col-20 typical-product"><a href="#"><img src="images/s_danh-bong-san-da.png" alt="typical-product"/></a></div>
+                  <div class="col-80 list-product">
+                    <div class="row">
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_cach-giu-ben-mau-quan-ao.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_cach-giu-ben-mau-quan-ao.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_cach-giu-ben-mau-quan-ao.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="col-3">
+                        <section class="item-product item-product-wrap text-center">
+                          <div class="product-img"><a href="#"><img src="images/s_cach-giu-ben-mau-quan-ao.png" alt="Kẹp giẻ khô HC015A"/></a><a class="img-cover" href="#"><span class="view-label">XEM</span></a></div>
+                          <div class="product-description">
+                            <h6 class="title" href="#"><a href="#">Kẹp giẻ khô HC015A</a></h6><a class="contact" href="#">Liên hệ</a>
+                          </div><a class="new-label" href="#">new </a>
+                        </section>
+                        <!--.item-product-wrap-->
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="banquyen">
-            <p>©2018 Bản quyền thuộc về DKBike</p>
+        </div>
+      </main>
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row-footer-top">
+              <div class="col-20">
+                <div class="col-inner">
+                  <div class="widget menu-bottom">
+                    <h3 class="title-widget">Về chúng tôi</h3>
+                    <ul class="list-widget">
+                      <li><a href="#">Giới thiệu</a></li>
+                      <li><a href="#">Liên hệ với chúng tôi</a></li>
+                      <li><a href="#">Tuyển dụng</a></li>
+                      <li><a href="#">Tin tức</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-30">
+                <div class="col-inner">
+                  <div class="widget menu-bottom">
+                    <h3 class="title-widget"><a href="#">CHÍNH SÁCH BÁN HÀNG VÀ QUY ĐỊNH</a></h3>
+                    <ul class="list-widget">
+                      <li><a href="#">Chính sách và quy định chung</a></li>
+                      <li><a href="#">Chính sách Đổi - Trả hàng hóa</a></li>
+                      <li><a href="#">Chính sách bán hàng và chất lượng hàng</a></li>
+                      <li><a href="#">Chính sách bảo mật thông tin</a></li>
+                      <li><a href="#">Chính sách vận chuyển, giao nhận hàng</a></li>
+                      <li><a href="#">Chính sách Bảo hành sản phẩm</a></li>
+                      <li><a href="#">Danh sách khu vực miễn phí dịch vụ</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="col-inner">
+                  <div class="widget menu-bottom">
+                    <h3 class="title-widget"><a href="#">Kiến thức</a></h3>
+                    <ul class="list-widget">
+                      <li><a href="#">Thương hiệu</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="col-inner">
+                  <div class="nav-cat-title small stand">Facebook</div>
+                  <div class="box-fanpage"></div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="info-company"><strong class="name-company">Công Ty TNHH Sản Xuất và Thương Mại HDD Việt Nam</strong>
+              <div class="footer-content-left"> 
+                <p>Địa chỉ: sô 17, Ngõ 463/7 phố Đội Cấn , Phường Vĩnh Phúc, Quận Ba Đình, Thành phố Hà Nội, Việt Nam.</p>
+                <p>Điện thoại: 01223455666 - Hotline: 0980.705.705</p>
+                <p>Email:<span class="email"><a href="#"> info@maydungcuvesinhcongnghiep.vn</a></span><span>&nbsp;- Website: </span><span class="website"><a href="#"> http://chv.vn/</a></span></p>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
+      <!--#footer-->
+      <div id="mark"></div>
     </div>
     <!--#wrapper-->
-    <!-- link jq -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!--JS - owlcarousel-->
-    <script src="libs/jQuery/jquery.min.js"></script>
-    <script src="libs/owlCarousel/owl.carousel.min.js"></script>
-    <script src="libs/choosen/chosen.jquery.min.js"></script>
-    <!--JS - jQueryCustomScrollbar-->
-    <script src="libs/jQueryCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <!-- link js -->
-    <script src="js/script.js"></script>
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+    <script src="js/core.js"></script>
   </body>
 </html>
