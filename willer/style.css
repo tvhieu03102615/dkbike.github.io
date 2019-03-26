@@ -4,7 +4,7 @@
 Project:	willer - Creative Coming Soon Template
 Info:		https://themeforest.net/item/xxx
 Version:	1.0
-Author:		3F
+Author:		3FGroup
 
 -----------------------------------------------------------------
 					*** TABLE OF CONTENTS ***
@@ -459,7 +459,6 @@ button {
 .topic-path {
   background-color: #fff;
   width: 100%;
-  min-width: 980px;
   width: 100%;
   border-bottom: 1px solid #dddddd;
   text-align: left;
@@ -848,7 +847,6 @@ a:link .topmenutxt, a:visited .topmenutxt, a:hover .topmenutxt, a:active .topmen
 
 .bottommenu-group {
   margin: 0 auto;
-  min-width: 980px;
   width: 100%;
   overflow: hidden;
 }
@@ -1436,6 +1434,13 @@ h1.logo {
   border-bottom: none;
 }
 
+.gototop.sppz-block a {
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+
 .redtit {
   text-transform: uppercase;
 }
@@ -1886,7 +1891,6 @@ ul.select-company li {
 }
 
 .sns i {
-  padding-right: 5px;
   font-size: 11px;
   font-weight: bold;
   font-style: normal;
@@ -2533,22 +2537,20 @@ sitemap
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    max-width: 450px;
-    min-width: 320px;
+    padding-bottom: 0;
     width: 100%;
   }
   #topimgzone {
     margin: 0 auto;
-    max-width: 450px;
     width: 100%;
-    margin-left: 2px;
+    padding-left: 10px;
   }
   .size1q {
     float: left;
     height: auto;
     position: relative;
-    width: 48%;
-    margin-bottom: 15px;
+    width: 47.9%;
+    margin-right: 10px;
   }
   .mari {
     margin-right: 2%;
@@ -2623,7 +2625,6 @@ sitemap
   }
   .bottommenu-group {
     margin: 0 auto;
-    max-width: 450px;
     min-width: 320px;
     width: 100%;
     overflow: hidden;
@@ -2714,10 +2715,10 @@ sitemap
     min-height: 0px;
   }
   .conbox {
-    padding-right: 3%;
-    padding-left: 3%;
+    padding-right: 15px;
+    padding-left: 15px;
     min-width: 300px;
-    width: 94%;
+    width: 100%;
     display: block;
     float: none;
   }
@@ -2800,9 +2801,7 @@ sitemap
   }
   .smlist {
     /*ul list*/
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 15px;
+    margin: 0 15px 15px 15px;
   }
   .smlist li {
     border-left: 1px solid #e4e4e4;
@@ -3875,6 +3874,11 @@ dl.normal.w20-80 dd {
   width: 80%;
 }
 
+.spmenu-list.active_menu__header {
+  right: 0;
+  display: block;
+}
+
 /* 2019/1/9追加 Fujikawa
 --------------------------------------------------------- */
 /* ----- ※付きテキスト(list、p、spanなど) ----- */
@@ -3903,12 +3907,6 @@ span.mark-note {
 }
 
 /* 768px以下(SM) */
-@media only screen and (max-width: 768px) {
-  .mark-note + .mark-note {
-    margin-top: 0.5em;
-  }
-}
-
 /* ----- ※1～ (※+数字) ----- */
 .mark-note.type02 {
   text-indent: -2em;
@@ -4098,7 +4096,7 @@ dl.zonedl {
   background-color: #ffff;
 }
 
-#flotarea.fixed, #flotarea-index.fixed {
+.fixed {
   position: fixed;
   width: 100%;
   top: 0px;
@@ -4109,7 +4107,7 @@ dl.zonedl {
 }
 
 .content-business {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .content-business h2 {
@@ -4151,6 +4149,10 @@ dl.zonedl {
   border-bottom: none;
 }
 
+.select-company span {
+  margin-left: 5px;
+}
+
 @media screen and (max-width: 1024px) {
   .info-company {
     padding: 30px 15px;
@@ -4181,9 +4183,27 @@ dl.zonedl {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .mark-note + .mark-note {
+    margin-top: 0.5em;
+  }
+  .leftconts {
+    width: 65%;
+  }
+  .sidemenu {
+    width: 35%;
+  }
+  .conbox {
+    padding-bottom: 30px;
+  }
+  .layout-row-50 > div {
+    padding-left: 25px;
+  }
   .czone {
     width: 48%;
+  }
+  .col-lg-4 {
+    width: 100%;
   }
 }
 
@@ -4205,6 +4225,21 @@ dl.zonedl {
   .topic-path.fixed-topic, .breadcrumbs.fixed-topic {
     top: 0;
   }
+  .ttl-box {
+    padding: 20px 15px;
+  }
+  .bottommenu-group a:link, .bottommenu-group a:visited {
+    margin-left: 15px;
+  }
+  #menu li {
+    padding: 0;
+  }
+  .link-btn a {
+    width: 100%;
+  }
+  .info-company {
+    padding: 0px 15px;
+  }
   .logoarea h1.logo-index {
     padding-bottom: 15px;
   }
@@ -4214,8 +4249,14 @@ dl.zonedl {
   .top-page-index {
     background-color: #fff;
   }
-  .spmenu-list.active_menu__header li {
+  .spmenu-list.active_menu__headers li {
     padding: 0;
+  }
+  .leftconts {
+    width: 100%;
+  }
+  .sidemenu {
+    width: 100%;
   }
   .logoarea h1.logo {
     background-color: #fff;
@@ -4231,12 +4272,19 @@ dl.zonedl {
   .article-wrap {
     padding-left: 0;
   }
+  .layout-row-50 > div {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card-body {
+    padding: 15px;
+  }
 }
 
 @media screen and (max-width: 414px) {
-  .contents {
-    padding-top: 350px;
-  }
   .top-page-index .text-info {
     margin-bottom: 20px;
   }
@@ -4252,10 +4300,44 @@ dl.zonedl {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .smlist {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .size1q {
+    width: 97.2%;
+    margin-right: 10px;
+  }
+  .info-company {
+    padding: 0 10px;
+  }
+  .conbox {
+    padding: 0 10px 0 10px;
+  }
+  .bottommenu-group a:link, .bottommenu-group a:visited {
+    margin-left: 10px;
+  }
+  .layout-row-50 > div {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .infobox {
     padding: 0;
   }
+  .size1q {
+    width: 96.7%;
+  }
+  .card-body {
+    padding: 10px;
+  }
+}
+
+.sns i {
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
