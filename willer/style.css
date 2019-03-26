@@ -300,6 +300,10 @@ button {
   display: inline;
 }
 
+.clickclose {
+  display: none;
+}
+
 .sppz, .sppz-block {
   display: none;
 }
