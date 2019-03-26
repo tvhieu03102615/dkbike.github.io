@@ -4,7 +4,7 @@
 Project:	willer - Creative Coming Soon Template
 Info:		https://themeforest.net/item/xxx
 Version:	1.0
-Author:		3FGroup
+Author:		3F
 
 -----------------------------------------------------------------
 					*** TABLE OF CONTENTS ***
@@ -36,8 +36,8 @@ Author:		3FGroup
 
 @font-face {
   font-family: "Open Sans";
-  src: url("fonts/OpenSans-SemiBold.eot");
-  src: url("fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-SemiBold.woff") format("woff"), url("fonts/OpenSans-SemiBold.ttf") format("truetype"), url("fonts/OpenSans-SemiBold.svg#Open Sans") format("svg");
+  src: url("fonts/OpenSans-Bold.eot");
+  src: url("fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Bold.woff") format("woff"), url("fonts/OpenSans-Bold.ttf") format("truetype"), url("fonts/OpenSans-Bold.svg#Open Sans") format("svg");
   font-style: normal;
   font-weight: 600;
 }
@@ -909,7 +909,7 @@ a:link .topmenutxt, a:visited .topmenutxt, a:hover .topmenutxt, a:active .topmen
 }
 
 .presentation-inside-index {
-  height: 525px;
+  height: 575px;
   position: relative;
   width: 100%;
   display: block;
@@ -1074,7 +1074,7 @@ h1.logo {
 .redtit {
   font-size: 24px;
   letter-spacing: 1px;
-  padding-top: 60px;
+  padding-top: 87px;
   padding-bottom: 48px;
   border-bottom: #DF0017 2px solid;
   text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
@@ -1083,7 +1083,6 @@ h1.logo {
 /*normal text (table, info) area*/
 .infobox {
   margin-top: 25px;
-  padding: 2%;
 }
 
 .infobox h3 {
@@ -1492,7 +1491,7 @@ h1.logo {
 .sptop-tit {
   color: #FFFFFF;
   padding-left: 30px;
-  padding-top: 50px;
+  padding-top: 60px;
   font-size: 20px;
 }
 
@@ -1511,7 +1510,7 @@ h1.logo {
   padding-top: 20px;
   padding-bottom: 18px;
   padding-left: 40px;
-  line-height: 18px;
+  line-height: 15px;
   text-align: left;
   text-decoration: none;
   background-image: url("images/marrow.png");
@@ -1607,7 +1606,7 @@ h1.logo {
 .table {
   display: table;
   width: 100%;
-  border: 1px solid #999;
+  border: 1px solid #d0cdcd;
 }
 
 .row-table {
@@ -1618,8 +1617,12 @@ h1.logo {
 .column {
   line-height: 22px;
   display: table-cell;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #d0cdcd;
   padding: 10px 15px;
+}
+
+.smlist li {
+  padding: 0;
 }
 
 .column.title-col {
@@ -1772,6 +1775,7 @@ h1.release-title {
   font-weight: bold;
   line-height: 24px;
   margin: 0.67em 0;
+  font-size: 18px;
 }
 
 h2.release-sub-title {
@@ -1956,10 +1960,6 @@ article.item-wrap h2 {
   margin-bottom: 0;
 }
 
-article.item-wrap h2 a {
-  text-transform: uppercase;
-}
-
 .pressrelease-detail a {
   text-transform: uppercase;
 }
@@ -1980,11 +1980,11 @@ article.item-wrap img {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(images/sp/corporate_photo.jpg);
+  background-image: url(images/sp/a.jpg);
   width: 100%;
-  height: 525px;
+  height: 575px;
   display: block;
-  background-position: bottom;
+  background-position: center;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -3082,7 +3082,6 @@ sitemap
   }
   .portal-top .infobox {
     margin-top: 170px;
-    margin-left: 10px;
     margin-right: 10px;
   }
   /* special position for text area */
@@ -3102,7 +3101,6 @@ sitemap
   }
   .consulting-top .infobox {
     margin-top: 170px;
-    margin-left: 10px;
     margin-right: 10px;
   }
   /* special position for text area */
@@ -3988,10 +3986,6 @@ span.mark-note {
   margin-right: -25px;
 }
 
-.release-title {
-  text-transform: uppercase;
-}
-
 .row {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -4007,7 +4001,7 @@ span.mark-note {
 
 .layout-row-50 > div {
   padding-right: 25px;
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
 @media (min-width: 992px) {
@@ -4027,7 +4021,7 @@ body {
 
 .layout-row-50 > div {
   padding-right: 25px;
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
 @media (min-width: 992px) {
@@ -4137,7 +4131,15 @@ dl.zonedl {
   color: #fff;
   background-color: #333;
   width: 200px;
-  padding: 10px 15px;
+  padding: 15px;
+  display: block;
+  padding-left: 33px;
+  line-height: 15px;
+  text-align: left;
+  text-decoration: none;
+  background-image: url(images/marrow.png);
+  background-position: 13px 14px;
+  background-repeat: no-repeat;
 }
 
 .link-btn a:hover {
