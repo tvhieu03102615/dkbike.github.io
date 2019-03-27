@@ -4176,7 +4176,10 @@ dl.zonedl {
   font-size: 26px;
   font-weight: bold;
 }
-
+.logoarea .logo img{
+  width:169px;
+  height:42px;
+}
 .img-business {
   text-align: center;
 }
