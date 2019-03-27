@@ -4,7 +4,7 @@
 Project:	willer - Creative Coming Soon Template
 Info:		https://themeforest.net/item/xxx
 Version:	1.0
-Author:		3FGroup
+Author:		3F
 
 -----------------------------------------------------------------
 					*** TABLE OF CONTENTS ***
@@ -300,11 +300,8 @@ button {
   display: inline;
 }
 
-.clickclose {
-  display: none;
-}
-
-.sppz, .sppz-block {
+.sppz,
+.sppz-block {
   display: none;
 }
 
@@ -365,7 +362,8 @@ button {
 
 @media (min-width: 1380px) {
   /*for background >1380px an over.*/
-  .spl1, .spl2 {
+  .spl1,
+  .spl2 {
     -webkit-background-size: 100% 400px;
     -o-background-size: 100% 400px;
     background-size: 100% 400px;
@@ -374,7 +372,8 @@ button {
 
 @media (max-width: 1380px) {
   /* this is the syle for window less than 1380px */
-  .spl1, .spl2 {
+  .spl1,
+  .spl2 {
     -webkit-background-size: 1380px 400px;
     -o-background-size: 1380px 400px;
     background-size: 1380px 400px;
@@ -468,6 +467,7 @@ button {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -65px;
 }
 
 #sidebar li {
@@ -503,11 +503,13 @@ ul.pankuzu li:last-child {
 }
 
 /* ----- main menu ----- */
-#flotarea, #flotarea-index {
+#flotarea,
+#flotarea-index {
   /*required*/
   position: relative;
   overflow: hidden;
   display: block;
+  margin-top: -91px;
 }
 
 .fixed {
@@ -579,7 +581,9 @@ ul.pankuzu li:last-child {
   margin-right: auto;
 }
 
-.mmenu1, .mmenu2, .mmenu3 {
+.mmenu1,
+.mmenu2,
+.mmenu3 {
   border-bottom: 1px solid #dddddd;
 }
 
@@ -591,8 +595,8 @@ ul.pankuzu li:last-child {
 .icopopreq {
   margin-left: 6px;
   /*	position:absolute;
-  	top:33px;
-  	right:20%;*/
+	top:33px;
+	right:20%;*/
 }
 
 .icopopreq-on {
@@ -609,15 +613,15 @@ ul.pankuzu li:last-child {
 .mmenu4:hover .icopopreq {
   display: none;
   /*	position:absolute;
-    	top:33px;
-    	right:20%;*/
+	top:33px;
+	right:20%;*/
 }
 
 .mmenu4:hover .icopopreq-on {
   display: inline-block;
   /*	position:absolute;
-    	top:33px;
-    	right:20%;*/
+	top:33px;
+	right:20%;*/
 }
 
 .icopopreq-sp {
@@ -661,9 +665,7 @@ ul.pankuzu li:last-child {
   text-align: center;
   text-decoration: none;
   padding-top: 37px;
-  /* just for text position, do not affect the height*/
   padding-bottom: 35px;
-  /* just for text position, do not affect the height*/
   letter-spacing: 1px !important;
 }
 
@@ -766,7 +768,10 @@ ul.pankuzu li:last-child {
   width: 100%;
 }
 
-a:link .topmenutxt, a:visited .topmenutxt, a:hover .topmenutxt, a:active .topmenutxt {
+a:link .topmenutxt,
+a:visited .topmenutxt,
+a:hover .topmenutxt,
+a:active .topmenutxt {
   color: #131313;
   text-decoration: none;
 }
@@ -1108,7 +1113,8 @@ h1.logo {
 }
 
 /*privacy*/
-.privacy-txt, .privacy-point {
+.privacy-txt,
+.privacy-point {
   line-height: 2.2em;
   margin-bottom: 15px;
 }
@@ -1315,7 +1321,8 @@ h1.logo {
 }
 
 /* company / business top zones*/
-.czone-list, .czone {
+.czone-list,
+.czone {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1377,7 +1384,8 @@ h1.logo {
   background-image: url("images/ico_pop_small.png") !important;
 }
 
-.czone:link dt, .czone:visited dt {
+.czone:link dt,
+.czone:visited dt {
   color: #141414;
   text-decoration: none !important;
   background-image: url("images/company_arrow.png");
@@ -1424,6 +1432,7 @@ h1.logo {
   top: 91px;
   z-index: 1;
   width: 100%;
+  margin-top: 0;
 }
 
 .txt-b {
@@ -1432,6 +1441,16 @@ h1.logo {
 
 .czone-list a {
   text-decoration: none !important;
+}
+
+.header-container {
+  padding-bottom: 65px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-container {
+    padding-bottom: 0;
+  }
 }
 
 #header-company .mmenu1 {
@@ -1461,6 +1480,16 @@ h1.logo {
   border-bottom: none;
 }
 
+header#header {
+  padding-bottom: 91px;
+}
+
+@media screen and (max-width: 480px) {
+  header#header {
+    padding-bottom: 0;
+  }
+}
+
 #contact a {
   color: #4685B2;
   text-decoration: underline;
@@ -1475,12 +1504,14 @@ h1.logo {
   border-bottom: none;
 }
 
-.czone:link dd, .czone:visited dd {
+.czone:link dd,
+.czone:visited dd {
   color: #4685B2;
   text-decoration: none !important;
 }
 
-.czone:hover dd, .czone:active dd {
+.czone:hover dd,
+.czone:active dd {
   color: #4685B2;
   text-decoration: underline !important;
 }
@@ -2416,7 +2447,8 @@ sitemap
     display: block;
   }
   /* */
-  #flotarea, #flotarea-index {
+  #flotarea,
+  #flotarea-index {
     display: none;
   }
   .logoarea {
@@ -2461,7 +2493,8 @@ sitemap
     background-size: 100% 400px;
     background-repeat: no-repeat;
   }
-  .spl1, .spl2 {
+  .spl1,
+  .spl2 {
     -webkit-background-size: 450px 300px;
     -o-background-size: 450px 300px;
     background-size: 450px 300px;
@@ -2526,14 +2559,20 @@ sitemap
     background-color: #DF0017;
   }
   /*active menu color*/
-  .company .spm1 a, .business .spm2 a, .press .spm3 a, .recruit .spm4 a, .contact .spm5 a, .sitemap .spm6 a {
+  .company .spm1 a,
+  .business .spm2 a,
+  .press .spm3 a,
+  .recruit .spm4 a,
+  .contact .spm5 a,
+  .sitemap .spm6 a {
     background-color: #DF0017 !important;
   }
   /*riknavi link color for mobile*/
   .spmenu-list a:link .rikured, .spmenu-list a:visited.rikured {
     color: #DF0017;
   }
-  .spmenu-list a:hover .rikured, .spmenu-list a:active .rikured {
+  .spmenu-list a:hover .rikured,
+  .spmenu-list a:active .rikured {
     color: #ffffff;
   }
   /*top page images*/
@@ -2590,7 +2629,10 @@ sitemap
     text-align: center;
     width: 100%;
   }
-  a:link .topmenutxt, a:visited .topmenutxt, a:hover .topmenutxt, a:active .topmenutxt {
+  a:link .topmenutxt,
+  a:visited .topmenutxt,
+  a:hover .topmenutxt,
+  a:active .topmenutxt {
     color: #131313;
     text-decoration: none;
   }
@@ -2598,7 +2640,8 @@ sitemap
     padding-bottom: 15px;
     border-bottom: #888888 1px dotted;
   }
-  .toppl-end, #toppress dl:last child {
+  .toppl-end,
+  #toppress dl:last child {
     border-bottom: none !important;
     padding-bottom: 0;
   }
@@ -3046,7 +3089,8 @@ sitemap
     display: block;
     margin-bottom: 0px;
   }
-  .bblock-left, .bblock-right {
+  .bblock-left,
+  .bblock-right {
     float: none;
     min-width: 310px;
     width: 100%;
@@ -3173,7 +3217,7 @@ sitemap
     text-align: center;
   }
   /* press release
-  ---------------------------*/
+---------------------------*/
   .pressbox {
     margin-bottom: 45px;
   }
@@ -3303,13 +3347,13 @@ sitemap
     margin-top: 0px;
   }
   /*
-  .pressdetail .conbox{
-  	padding-left:0px;
-  	padding-right:0px;
-  	margin-left:0px;
-  	margin-righ:0px;
-  }
-  */
+.pressdetail .conbox{
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:0px;
+	margin-righ:0px;
+}
+*/
   .pressdetail-date {
     font-size: 13px;
     padding-left: 6px;
@@ -3333,7 +3377,8 @@ sitemap
     padding-left: 6px;
     padding-right: 8px;
   }
-  .pressdetail-text td, .pressdetail-text th {
+  .pressdetail-text td,
+  .pressdetail-text th {
     line-height: 1.8em;
     font-size: 13px !important;
   }
@@ -3377,8 +3422,8 @@ sitemap
     width: 98% !important;
   }
   /*
-  sitemap
-  -------------------------------*/
+sitemap
+-------------------------------*/
   .sitemapbox {
     margin-bottom: 50px;
     margin-top: 0 !important;
@@ -3520,7 +3565,8 @@ sitemap
   box-sizing: border-box;
 }
 
-.infobox dl.normal dt, .infobox dl.normal dd {
+.infobox dl.normal dt,
+.infobox dl.normal dd {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -3555,7 +3601,8 @@ dl.normal:after {
   padding: 10px;
 }
 
-#point:after, #point ul:after {
+#point:after,
+#point ul:after {
   content: "";
   display: block;
   clear: both;
@@ -3587,7 +3634,8 @@ dl.normal:after {
 
 /* 2016/2/24追加 Fujikawa
 --------------------------------------------------------- */
-.infobox dl.normal.n-fl dt, .infobox dl.normal.n-fl dd {
+.infobox dl.normal.n-fl dt,
+.infobox dl.normal.n-fl dd {
   float: none;
   width: auto;
 }
@@ -3596,7 +3644,8 @@ dl.normal:after {
   list-style-type: none;
 }
 
-.infobox .press-160316 .normal dt, .infobox .press-160316 .normal dd {
+.infobox .press-160316 .normal dt,
+.infobox .press-160316 .normal dd {
   padding: 0;
 }
 
@@ -3689,7 +3738,8 @@ span.annotation {
 
 /* 2016/10/3追加 Fujikawa
 --------------------------------------------------------- */
-.pressdetail-text .normal.n-float dt, .pressdetail-text .normal.n-float dd {
+.pressdetail-text .normal.n-float dt,
+.pressdetail-text .normal.n-float dd {
   float: none;
   width: 100%;
 }
@@ -3794,7 +3844,8 @@ span.annotation {
   float: left;
 }
 
-.infobox .col-1 > dl.normal dt, .infobox .col-2 > dl.normal dt {
+.infobox .col-1 > dl.normal dt,
+.infobox .col-2 > dl.normal dt {
   width: 100%;
 }
 
@@ -3879,8 +3930,8 @@ dl.normal.w20-80 dd {
 }
 
 .spmenu-list.active_menu__header {
-  right: 0;
   display: block;
+  right: 0;
 }
 
 /* 2019/1/9追加 Fujikawa
@@ -3892,11 +3943,13 @@ dl.normal.w20-80 dd {
   margin-left: 1em;
 }
 
-.mark-note > li, .mark-note > dd {
+.mark-note > li,
+.mark-note > dd {
   list-style: none;
 }
 
-.mark-note > li + li, .mark-note > dd + dd {
+.mark-note > li + li,
+.mark-note > dd + dd {
   margin-top: 0.5em;
 }
 
@@ -4037,7 +4090,9 @@ body {
   }
 }
 
-a, a:hover, a:focus {
+a,
+a:hover,
+a:focus {
   color: #333;
 }
 
@@ -4065,6 +4120,7 @@ a:hover {
   background-color: #fff;
   overflow: hidden;
   padding: 20px;
+  margin-top: -65px;
 }
 
 .breadcrumbs .current-item {
@@ -4096,7 +4152,8 @@ dl.zonedl {
   background-color: #fff;
 }
 
-.pankuzu, #contact {
+.pankuzu,
+#contact {
   background-color: #ffff;
 }
 
@@ -4226,13 +4283,15 @@ dl.zonedl {
 }
 
 @media screen and (max-width: 480px) {
-  .topic-path.fixed-topic, .breadcrumbs.fixed-topic {
+  .topic-path.fixed-topic,
+  .breadcrumbs.fixed-topic {
     top: 0;
   }
   .ttl-box {
     padding: 20px 15px;
   }
-  .bottommenu-group a:link, .bottommenu-group a:visited {
+  .bottommenu-group a:link,
+  .bottommenu-group a:visited {
     margin-left: 15px;
   }
   #menu li {
@@ -4319,7 +4378,8 @@ dl.zonedl {
   .conbox {
     padding: 0 10px 0 10px;
   }
-  .bottommenu-group a:link, .bottommenu-group a:visited {
+  .bottommenu-group a:link,
+  .bottommenu-group a:visited {
     margin-left: 10px;
   }
   .layout-row-50 > div {
