@@ -1971,6 +1971,14 @@ ul.select-company li {
   text-decoration: none;
 }
 
+.sidemenu li a.active {
+  background-color: #FFFFFF;
+  color: #DF0017;
+  background-image: url("images/marrow_active.png");
+  background-position: 13px 18px;
+  background-repeat: no-repeat;
+}
+
 .sns li.facebook {
   background-color: #3b5999;
 }
