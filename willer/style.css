@@ -4,7 +4,7 @@
 Project:	willer - Creative Coming Soon Template
 Info:		https://themeforest.net/item/xxx
 Version:	1.0
-Author:		3F
+Author:		3FGroup
 
 -----------------------------------------------------------------
 					*** TABLE OF CONTENTS ***
@@ -298,6 +298,11 @@ button {
 
 .pcpz {
   display: inline;
+}
+
+.logoarea .logo img {
+  width: 169px;
+  height: 42px;
 }
 
 .sppz,
@@ -2416,6 +2421,10 @@ sitemap
   text-decoration: underline;
 }
 
+.size1q:nth-child(2) img {
+  padding: 20% 7px;
+}
+
 .noticebox {
   margin-right: auto;
   margin-left: auto;
@@ -2518,7 +2527,7 @@ sitemap
   }
   .spmenu-list {
     position: absolute;
-    top: 55px;
+    top: 62px;
     width: 260px;
     right: -400px;
     z-index: 9999;
@@ -4176,10 +4185,7 @@ dl.zonedl {
   font-size: 26px;
   font-weight: bold;
 }
-.logoarea .logo img{
-  width:169px;
-  height:42px;
-}
+
 .img-business {
   text-align: center;
 }
